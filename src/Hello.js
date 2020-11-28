@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './Hello.js';
+/*import logo from './logo.svg';
+import './App.css';*/
 
-function App(props) {
+
+function Hello() {
  /* return (
     <div className="App">
       <header className="App-header">
@@ -23,7 +23,7 @@ function App(props) {
       </header>
     </div>
   );*/
- return <div><Hello/> App.js updated with {props.name} and age is {props.age}</div>;
+ return <div>Hello From </div>;
 }
 
-export default App;
+export default Hello;
